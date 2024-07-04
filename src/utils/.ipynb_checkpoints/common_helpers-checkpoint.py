@@ -1,12 +1,18 @@
+dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0';
+dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple]
+dlc = dict(dlblue = '#0096ff', dlorange = '#FF9300', dldarkred='#C00000', dlmagenta='#FF40FF', dlpurple='#7030A0')
+
+
 def create_markdown_table(headers, columns, numRows):
     """
     Create a table in Markdown
-
+    
     Args:
         headers (list | ndarray (m,)) : List of table headers
         columns (list | ndarray(m,))  : Table column data
         numRows (number)              : Number of table rows e.g. length of each column
-    Returns:
+
+    Returns
         table   (str)                 : Markdown table string
     """
     table = ""

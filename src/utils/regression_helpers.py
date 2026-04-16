@@ -4,7 +4,7 @@ from matplotlib.ticker import MaxNLocator
 from matplotlib.gridspec import GridSpec
 from matplotlib.colors import LinearSegmentedColormap
 from ipywidgets import interact
-from utils.common_helpers import dlblue, dlorange, dldarkred, dlmagenta, dlpurple, dlcolors
+from src.utils.common_helpers import dlblue, dlorange, dldarkred, dlmagenta, dlpurple, dlcolors
 
 n_bin = 5
 dlcm = LinearSegmentedColormap.from_list('dl_map', dlcolors, N=n_bin)
